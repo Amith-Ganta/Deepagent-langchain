@@ -1,0 +1,34 @@
+# Environment — never commit real keys
+.env
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[oc]
+*.pyd
+
+# Build artifacts
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archive folder (old structure, not for GitHub)
+_archive/
+deepagentsdemo/
+
+# uv lock (optional: commit if you want reproducible installs)
+# uv.lock

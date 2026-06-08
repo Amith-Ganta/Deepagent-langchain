@@ -1,0 +1,16 @@
+[project]
+name = "deep-agents-demo"
+version = "0.1.0"
+description = "Streamlit chatbot demonstrating deepagents: planning, context engineering, subagents, and multiple storage backends"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "deepagents>=0.6.8",
+    "ipykernel>=7.2.0",
+    "langchain>=1.3.4",
+    "langchain-groq>=1.1.2",
+    "langchain-openai>=1.2.2",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.37.0",
+    "tavily-python>=0.7.25",
+]
