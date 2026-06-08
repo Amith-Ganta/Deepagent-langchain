@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import uuid
 from pathlib import Path
 from typing import Any
@@ -8,7 +9,18 @@ from typing import Any
 import streamlit as st
 from dotenv import load_dotenv
 
+# Local dev: read from .env file
 load_dotenv()
+
+# Streamlit Cloud: .env doesn't exist — pull from st.secrets instead
+_SECRET_KEYS = ("OPENAI_API_KEY", "GROQ_API_KEY", "TAVILY_API_KEY")
+for _key in _SECRET_KEYS:
+    if not os.environ.get(_key):
+        try:
+            if _key in st.secrets:
+                os.environ[_key] = str(st.secrets[_key])
+        except Exception:
+            pass
 
 from core.agent import SKILLS_ROOT, build_agent
 from core.backends import load_agents_md

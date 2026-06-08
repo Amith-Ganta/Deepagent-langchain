@@ -1,5 +1,6 @@
 # Environment — never commit real keys
 .env
+.streamlit/secrets.toml
 
 # Virtual environment
 .venv/

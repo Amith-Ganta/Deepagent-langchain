@@ -3,7 +3,7 @@ name = "deep-agents-demo"
 version = "0.1.0"
 description = "Streamlit chatbot demonstrating deepagents: planning, context engineering, subagents, and multiple storage backends"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "deepagents>=0.6.8",
     "ipykernel>=7.2.0",
