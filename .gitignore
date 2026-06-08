@@ -31,5 +31,5 @@ Thumbs.db
 _archive/
 deepagentsdemo/
 
-# uv lock (optional: commit if you want reproducible installs)
-# uv.lock
+# uv lock — not committed (Streamlit Cloud uses pip + requirements.txt)
+uv.lock
