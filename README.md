@@ -1,11 +1,14 @@
-# 🤖 Deep Agent Chatbot
+# 🤖 Deep Agent Chatbot — LangGraph + deepagents
 
 > A Streamlit conversational interface that wires every feature of the **deepagents** library into one runnable app — planning, context engineering, subagent delegation, swappable memory backends, and on-demand skills.
 
-[![Python 3.13+](https://img.shields.io/badge/python-3.13%2B-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
 [![deepagents](https://img.shields.io/badge/deepagents-0.6.8-green.svg)](https://pypi.org/project/deepagents/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-1.2%2B-orange.svg)](https://github.com/langchain-ai/langgraph)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://deepagent-langchain-claude-replica.streamlit.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+**🚀 Live demo: [deepagent-langchain-claude-replica.streamlit.app](https://deepagent-langchain-claude-replica.streamlit.app/)**
 
 ---
 
